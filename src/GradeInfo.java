@@ -1,8 +1,8 @@
-import java.io.Serializable; // <-- 1. ADD THIS IMPORT
+import java.io.Serializable;
 
-public class GradeInfo implements Serializable { // <-- 2. ADD 'implements Serializable'
+public class GradeInfo implements Serializable {
 
-    private static final long serialVersionUID = 1L; // <-- 3. ADD THIS LINE
+    private static final long serialVersionUID = 1L;
 
     private String courseName;
     private double grade;
